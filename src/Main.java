@@ -1,4 +1,4 @@
-public class Outer {
+public class Main {
     private String message = "Hello from the outer class";
 
     class InnerClass {
@@ -12,7 +12,7 @@ public class Outer {
         inner.displayMessage();
     }
 public static void main(String[] args) {
-        Outer outer = new Outer();
+        Main outer = new Main();
         outer.callInner();
     }
 }
